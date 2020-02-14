@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getStart_Activity"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:layout_above="@id/shorttext"
+        android:layout_width="300dp"
+        android:src="@drawable/get_start_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_height="300dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/shorttext"
+        android:layout_above="@id/longtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:text="Immerse in a seamless online\n communaction experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/longtext"
+        android:layout_above="@id/GetStartButtonID"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginBottom="25dp"
+        android:text="We promise that you'll have the most\n fuss-free time with us ever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/GetStartButtonID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Get Started"
+        android:textColor="#FF5722"
+        android:textAllCaps="false"
+        android:textSize="17dp"
+        android:background="@drawable/get_strat_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</RelativeLayout>

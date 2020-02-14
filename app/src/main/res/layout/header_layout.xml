@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+
+    <RelativeLayout
+        android:id="@+id/HeadImageID"
+        android:layout_width="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="70dp">
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/plusicon"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:elevation="1dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="20dp">
+
+        </ImageView>
+
+        <RelativeLayout
+            android:background="@drawable/header_layout_circle"
+            android:layout_width="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="57dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/default_profileimage"
+                android:layout_height="57dp">
+
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_below="@id/HeadImageID"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:layout_marginTop="7dp"
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
